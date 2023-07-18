@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common */
+nav{
+    max-width: 1400px;
+    display: flex;
+    margin: 0px auto;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-left{
+width: 70%;
+display: flex;
+align-items: center;
+}
+.nav-left img{
+    width: 50px;
+    height: 30px;
+}
+.nav-right{
+width: 30%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.text-color{
+color:  #FF42A5;
+}
+.follow-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    border-style: none;
+}
+.follow-btn-text{
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 400;
+}
+    /* finish nav */
+    /* Bannar section */

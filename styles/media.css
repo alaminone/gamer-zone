@@ -1,0 +1,46 @@
+@media screen and (max-width: 576px) {
+    
+nav{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-left{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right{
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+}
+
+/* Tab screen */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+    nav{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .nav-left{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-right{
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+        }
+    
+    }
