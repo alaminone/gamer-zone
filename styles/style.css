@@ -79,7 +79,7 @@ color:  #FF42A5;
     width: 50%;
  }
  .bannar-img, img{
-    width: full;
+    width: 100%;
  }
 .play-like-title{
         color: #0B0223;
@@ -309,7 +309,7 @@ padding: 100px;
 /* end play game online */
 .review-continer{
     max-width: 1400px;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +326,7 @@ padding: 100px;
     border-radius: 50px;
     cursor: pointer;
     background-color: #FFF;
-    padding: 5px;
+    justify-content: center;
 }
 /* review end */
 
