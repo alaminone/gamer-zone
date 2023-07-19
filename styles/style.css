@@ -113,7 +113,7 @@ color:  #FF42A5;
         cursor: pointer;
  }
 .btn-sky-blue{
-    background-color: skyblue;
+    background-color: #4EC5F7;
     padding: 10px 30px;
     border-radius: 40px;
     border-style: none;
@@ -200,6 +200,15 @@ color:  #FF42A5;
 .card {
     position: relative;
 }
+.card img {
+    transition: border-color 0 ease;
+
+}
+
+.card:hover img {
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
 
 .play-btn {
     position: absolute;
@@ -224,23 +233,24 @@ color:  #FF42A5;
     margin-bottom: 10px;
 }
 
-
 /* online game funny video end */
  /* play instantly */
 .play-instantly-continar{
     max-width: 1400px;
    margin: 100px auto;
     display: flex;
+    align-items: center;
+    text-align: right;
 }
 .play-instantly-contint{
     width: 50%;
+    padding-right: 30px;
 }
 .play-instantly-img{
     width: 50%;
     position: relative;
 }
 .cat-img{
-    margin: 0px;
     position: absolute;
     bottom: -60px;
     left: -100px;
@@ -249,35 +259,67 @@ color:  #FF42A5;
     margin-left: 100px;
 }
 .play-instantly-contint >h3{
-    text-align: right;
     font-size: 48px;
     font-weight: 700;
-    align-items: center;
 }
-.play-instantly-contint> p{
+.play-instantly-contint > p{
     color: #534C64;
-    align-items: center;
-    text-align: right;
     font-size: 18px;
     font-weight: 400;
 }
-/* play insantlyt */
 
 
-.review-continer{
-    width: 1400px;
-    margin: 50px auto;
-    justify-content: center;
+/* play insantlyt end */
+/* play game one line */
+.play-game-online{
     display: flex;
-    display: grid;
-    grid-template-columns: repeat( 5,1fr);
-    gap: 20px;
+    max-width: 1400px;
+    margin: 50px auto;
+    align-items: center;
+}
+.play-online-content{
+    width: 50%;
+
+padding: 100px;
+}
+.play-online-content >h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-online-content >p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400; 
+
+}
+.play-online-img{
+    width: 50%;
+    position: relative;
+}
+.tom-img{
+    position: absolute;
+    bottom: -50px;
+    right: -180px;
+}
+.play-online-img img{
+    margin-right: 100px;
+}
+
+
+/* end play game online */
+.review-continer{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .review{
     display: flex;
     align-items: center;
-    
-    
+    flex-basis: 20%;
+
 }
 .review:hover{
     border: 2px solid #FF42A5;
@@ -286,7 +328,7 @@ color:  #FF42A5;
     background-color: #FFF;
     padding: 5px;
 }
-/* play instntly End */
+/* review end */
 
 
 /* footer section */
@@ -308,7 +350,7 @@ footer{
 }
 .footer-title >img{
     width: 30px;
-    height: 30px;
+    height: 25px;
 }
 .footer-about > ul{
     justify-content: center;

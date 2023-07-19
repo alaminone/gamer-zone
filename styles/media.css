@@ -1,55 +1,59 @@
 @media screen and (max-width: 576px) {
-    .nevigetion{
+    .nevigetion {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-left, .nav-right {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .nav-right {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .nav-title {
+      font-size: 30px;
+      margin-left: 0;
+    }
+    /* end nav */
+    .nav-bannar{
         flex-direction: column;
-        
     }
-    .nav-left{
-        width: 100%;
-        justify-content: center;
-    }
-    .nav-right{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-    }
-/* nav end */
-.bannar-continer{
+    .bannar-continer {
+        padding: 20px;
+      }
+    
+      .play-like-title {
+        font-size: 24px;
+      }
+    
+      .goat-title {
+        font-size: 50px;
+      }
+    
+      .bannar-discription {
+        font-size: 14px;
+      }
+    
+      /* we are gemar */
+.we-are-gamer-continer {
     flex-direction: column;
-}
-.bannar{
-    width: 100%;
-    margin: 0px;
-}
-.bannar-img{
-    width: 100%;
-}
-/* bannar end */
-.we-are-gamer-continer{
-    flex-direction: column;
-}
-.we-are-gamer-title,
-.we-are-gamer-discription,
-.btn-know-more,
-.we-are-gamer-ourpurpose
-{
-   justify-content: center;
-}
-.title-continer > h3{
+    align-items: center;
     text-align: center;
-}
-    
-/* we are gamer End */
-
-.card-continer{
+  }
+  .we-are-gamer-img img{
+    width: 100%;
+    height: 100%;
+  }
+  /* funny video */
+  .card-continer {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
     flex-direction: column;
-    gap: 20px;
-}
+  }
 
 }
-/* Tab screen */
-
-@media screen and (min-width:576px) and (max-width:960px) {
-    
-    
-    
-    }
